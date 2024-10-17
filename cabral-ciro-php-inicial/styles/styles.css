@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: gray;
+    border-bottom: 2px solid rgb(193, 193, 193);
+}
+
+.header h1{
+    margin: 30px;
+    color: white;
+}
+
+.options{
+    display: flex;
+}
+
+.options a{
+    margin: 20px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    border-bottom: rgb(193, 193, 193) 2px solid;
+}
+
+.options a:hover{
+    transform: scale(1.1);
+    background-color: rgb(93, 93, 93);
+}
+
+/* Principal */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white,rgb(198, 198, 198));
+    box-shadow: 0px 0px 10px black;
+    width: 600px;
+    height: auto;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.formInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+.formInput input{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 20px;
+    border:none ;
+    box-shadow: 0px 0px 3px gray;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+    resize: none;
+}
+.formContainer button{
+    width: 125px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.formContainer button:hover{
+    transform: scale(1.1);
+    background-color: rgb(193, 193, 193);
+    color: white;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+@media(max-width: 1024px){
+    .formContainer{
+        width: 300px;
+        padding: 0px 50px
+    }
+}
+
+li{
+    margin: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+.mainPj{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    margin: 30px;
+}
+
+.mainFunctions{
+    width: 500px;
+    height: auto;
+    margin: 30px;
+    box-shadow: 0px 0px 10px gray;
+}
+
